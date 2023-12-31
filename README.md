@@ -1,0 +1,1 @@
+It is a sample car pool application developed using Node.js that will read data from HTML form - 2 pages created, one for sign up and one for mock up of car pool taking source, destination of the route with date and will perform basic operations like insert and retrieve using MySql database.

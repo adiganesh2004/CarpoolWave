@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <link rel = "stylesheet" href="style.css">
+  <title> My Form </title>
+</head>
+<h1>User Data</h1>
+
+<form action="/add" method="POST">
+    <fieldset>
+            <h3>Sign up page - Enter user details</h3>
+            <label>User Name</label>
+            <input type ="text" id = 'username' name="username"  required>
+            <br><br>
+
+            <label>Password</label>
+            <input type="text" id = "password" name="password" required>
+            <br><br>
+
+            
+            <button type ="submit">Submit</button>
+    </fieldset>
+</form>
+
+<h1> Car Pool Search</h1>
+<form action="/retrieve" method="POST">
+  <fieldset>
+          <h3>Search for car pool Availability</h3>
+          <label>Source</label>
+          <input type ="text" id = 'source' name="source"  required>
+          <br><br>
+
+          <label>Destination</label>
+          <input type="text" id = "destination" name="destination" required>
+          <br><br>
+
+          <label>Date</label>
+          <input type="date" id = "date" name="date" required>
+          <br><br>
+          
+          <button type ="submit">Submit</button>
+  </fieldset>
+</form>
